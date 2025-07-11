@@ -83,10 +83,15 @@ def read_text_file(filepath):
 # =======================================================================
 
 TASK_INSTRUCTIONS = {
-    1: "Analyze the image and list objects prominently visible.",
-    # ... (Include all 8 task descriptions as in your original script) ...
-    8: "Identify specific named locations mentioned in the text and visually identifiable in the image."
-}
+        1: "Analyze the image and list objects prominently visible.",
+        2: "Describe the overall scene depicted in the image.",
+        3: "Identify interactions or relationships between elements in the image.",
+        4: "Divide the image into 2-4 main semantic regions and describe each briefly.",
+        5: "Provide a detailed narrative description of the image, as if telling a story.",
+        6: "Extract specific phrases from the text that accurately describe elements visible in the image.",
+        7: "Identify parts of the text that describe things NOT visible or clearly contradicted by the image.",
+        8: "Identify specific named locations mentioned in the text and visually identifiable in the image."
+    }
 
 def generate_evaluation_prompt(text_id, vlm_response, task_description, language, setting, text_content, image_filename):
     """Generates the full prompt for the LLM-as-a-Judge."""
