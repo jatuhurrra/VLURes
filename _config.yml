@@ -1,0 +1,4 @@
+remote_theme: nerfies/nerfies.github.io
+plugins:
+  - jekyll-remote-theme
+
