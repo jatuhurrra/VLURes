@@ -27,6 +27,13 @@ VLURes is more than just a dataset; it's a comprehensive testbed for the next ge
 *   **Rich, Real-World Context:** Instead of short captions, each image is paired with a full article, forcing the AI to reason about deep, contextual information.
 *   **A New Test of "Unrelatedness":** We introduce a novel task that challenges models to identify and ignore textual information that is *not* related to an image—a crucial skill for navigating noisy, real-world data.
 
+### The Unrelatedness Task
+
+The proposed Unrelatedness task. Left: The VLM inputs consists of two modalities, a pair of image and texts. The image undergoes a series of transformations in the vision encoder and connector, generating visual tokens that are ready for alignment in a shared embedding space. Similarly, a tokenizer tokenizes text, generating textual tokens. Textual and visual tokens are aligned in a shared embedding space and fed as input to the LLM. Right. The LLM uses its multimodal understanding to decide what textual information is relevant to different parts of the image. We see that text painted green (marked with a cross sign) is directly related to the region of the image shown inside a green square box. That is, the text matches the image part shown in green. But in this task, we are interested in text unrelated to the image. Hence, yellow text (marked with a check sign) answers our Unrelatedness task.
+
+![VLURes Task Overview](https://raw.githubusercontent.com/jatuhurrra/VLURes/main/assets/UnrelatednessTask.png)
+*Figure 2:  Our proposed Unrelatedness Task*  
+
 ### Our Key Findings
 
 Our evaluation of ten leading AI models revealed that even the most advanced systems struggle with multilingual understanding.
