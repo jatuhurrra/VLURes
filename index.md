@@ -29,7 +29,7 @@ VLURes is more than just a dataset; it's a comprehensive testbed for the next ge
 
 ### The Unrelatedness Task
 
-The proposed Unrelatedness task. Left: The VLM inputs consists of two modalities, a pair of image and texts. The image undergoes a series of transformations in the vision encoder and connector, generating visual tokens that are ready for alignment in a shared embedding space. Similarly, a tokenizer tokenizes text, generating textual tokens. Textual and visual tokens are aligned in a shared embedding space and fed as input to the LLM. Right. The LLM uses its multimodal understanding to decide what textual information is relevant to different parts of the image. We see that text painted green (marked with a cross sign) is directly related to the region of the image shown inside a green square box. That is, the text matches the image part shown in green. But in this task, we are interested in text unrelated to the image. Hence, yellow text (marked with a check sign) answers our Unrelatedness task.
+The proposed Unrelatedness task. Left: The VLM inputs consist of two modalities, a pair of images and texts. The image undergoes a series of transformations in the vision encoder and connector, generating visual tokens that are ready for alignment in a shared embedding space. Similarly, a tokenizer tokenizes text, generating textual tokens. Textual and visual tokens are aligned in a shared embedding space and fed as input to the LLM. Right. The LLM uses its multimodal understanding to decide what textual information is relevant to different parts of the image. We see that the text painted green (marked with a cross sign) is directly related to the region of the image shown inside a green square box. That is, the text matches the image part shown in green. But in this task, we are interested in text unrelated to the image. Hence, yellow text (marked with a check sign) answers our Unrelatedness task.
 
 ![VLURes Task Overview](https://raw.githubusercontent.com/jatuhurrra/VLURes/main/assets/UnrelatednessTask.png)
 *Figure 2:  Our proposed Unrelatedness Task*  
@@ -68,4 +68,4 @@ Now under review at Journal of Machine Learning Research
 
 ### Usage and License Notices
 
-The code and data are provided under an MIT license. Feel free to use and adapt for your own research.
+The code, annotations, and other original materials in this repository are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
