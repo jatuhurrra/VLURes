@@ -5,7 +5,8 @@
 *Jesse Atuhurra, Iqra Ali, Tomoya Iwakura, Hidetaka Kamigaito, and Tatsuya Hiraoka.*  
 *NAIST, Fujitsu & MBZUAI*
 
-[**Paper**](https://www.jmlr.org/papers/v23/21-0000.html) | [**Code**](https://github.com/jatuhurrra/VLURes/) | [**Data**](https://huggingface.co/datasets/atamiles/VLURes)
+<!-- [**Paper**](https://www.jmlr.org/papers/v23/21-0000.html) -->
+[**Code**](https://github.com/jatuhurrra/VLURes/) | [**Data**](https://huggingface.co/datasets/atamiles/VLURes)
 
 ---
 
@@ -93,7 +94,6 @@ We used both:
 - **Human evaluation**: native speakers rated output quality on a 1–100 scale
 
 ![VLURes Task Performance](https://raw.githubusercontent.com/jatuhurrra/VLURes/main/assets/radarPlots.png)
-*Figure 3:  Example Radar plots*  
 
 ---
 
