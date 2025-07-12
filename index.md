@@ -16,7 +16,7 @@ Today's most advanced AI can describe images and understand text with amazing ac
 
 Our research addresses this gap. We created **VLURes**, a new benchmark designed to test how well AI models handle the complex interplay of images and long, detailed text in multiple languages, including low-resource languages that are often overlooked.
 
-![VLURes Task Overview](https://raw.githubusercontent.com/jatuhurra/VLURes/blob/main/assets/aINTRO.pdf)
+![VLURes Task Overview](https://raw.githubusercontent.com/jatuhurra/VLURes/blob/main/assets/aINTRO.png)
 *Figure 1: VLURes Task Overview*  
 
 ### What We Built: The VLURes Benchmark
