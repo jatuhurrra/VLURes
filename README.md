@@ -1,7 +1,8 @@
 # VLURes: Benchmarking VLM Visual and Linguistic Understanding in Low-Resource Languages
 
-[![Paper](https://img.shields.io/badge/paper-arXiv:24XX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/24XX.XXXXX) <!-- TODO: Update with your arXiv link -->
+[![Paper](https://img.shields.io/badge/paper-arXiv:24XX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/24XX.XXXXX)
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/atamiles/VLURes)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=github)](https://github.com/jatuhurrra/VLURes/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 > [!WARNING]
