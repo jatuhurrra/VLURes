@@ -71,6 +71,16 @@ Unlike traditional matching tasks, **Unrelatedness** tests whether a model can i
 
 ---
 
+### 📊 Summary of the Benchmark Pipeline
+
+1. **Task Definition**: 8 vision-language tasks
+2. **Data Collection**: From native-language web sources
+3. **Alignment**: Image selection via CLIP similarity
+4. **Evaluation**: Via human and automatic judges
+5. **Results**: Quantitative accuracy + qualitative rationale analysis
+
+---
+
 ### 🔬 Evaluation Protocols
 
 Models were tested under:
@@ -82,6 +92,9 @@ We used both:
 - **Automatic evaluation**: via Gemini 1.5 Pro ("LLM-as-a-Judge")
 - **Human evaluation**: native speakers rated output quality on a 1–100 scale
 
+![VLURes Task Performance](https://raw.githubusercontent.com/jatuhurrra/VLURes/main/assets/radarPlots.png)
+*Figure 3:  Example Radar plots*  
+
 ---
 
 ### 🧪 Experiment Results: Key Findings
@@ -90,16 +103,6 @@ We used both:
 - **Rationales help**: prompting models to “show their work” consistently improved accuracy.
 - **Open-source models** like Qwen2VL and PALO significantly benefit from fine-tuning, but struggle with Swahili and Urdu input.
 - **Multilingual drop**: performance degrades in the order En → Jp → Ur → Sw, showing clear signs of language bias.
-
----
-
-### 📊 Summary of the Benchmark Pipeline
-
-1. **Task Definition**: 8 vision-language tasks
-2. **Data Collection**: From native-language web sources
-3. **Alignment**: Image selection via CLIP similarity
-4. **Evaluation**: Via human and automatic judges
-5. **Results**: Quantitative accuracy + qualitative rationale analysis
 
 ---
 
