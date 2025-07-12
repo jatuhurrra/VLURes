@@ -141,7 +141,7 @@ Note: For convenience, we provide our pre-computed model outputs and evaluation 
 
 ---
 # License
-The code, annotations, and other original materials in this repository are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). The images are not covered by this license and are subject to their original copyright terms.
+The code, annotations, and other original materials in this repository are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). The images are not covered by this license and are subject to their original copyright terms.
 # Citation
 If you use VLURes in your research, please cite our paper.
 ```
