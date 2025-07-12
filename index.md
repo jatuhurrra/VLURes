@@ -2,9 +2,9 @@
 
 **A New Benchmark for Smarter, More Equitable AI**
 
-*Jesse Atuhurra, Tatsuya Hiraoka, and other contributors*
+*Jesse Atuhurra, Iqra Ali, Tomoya Iwakura, Hidetaka Kamigaito, and Tatsuya Hiraoka.*
 <br>
-*Nara Institute of Science and Technology (NAIST) & Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)*
+*NAIST, Fujitsu & MBZUAI*
 
 [**Paper**](https://www.jmlr.org/papers/v23/21-0000.html) | [**Code**](https://github.com/jatuhurrra/VLURes/) | [**Data**](https://huggingface.co/datasets/atamiles/VLURes)
 
