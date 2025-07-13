@@ -8,9 +8,7 @@
 <!-- [**Paper**](https://www.jmlr.org/papers/v23/21-0000.html) -->
 [**Code**](https://github.com/jatuhurrra/VLURes/) | [**Data**](https://huggingface.co/datasets/atamiles/VLURes)
 
----
-
-<!-- ++++++++++++++++ ++++++++ ++++++++ This is the Overview section (( ORIGINAL MAGENTA HERE cc00aa ))  ++++++++ ++++++++ ++++++++ --> 
+<!-- ++++++++++++++++ ++++++++ ++++++++ Motivation (( ORIGINAL MAGENTA HERE cc00aa ))  ++++++++ ++++++++ ++++++++ --> 
 
 <div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
   🌍 Motivation: A Multilingual, Multimodal World Needs Multilingual, Multimodal AI
@@ -23,7 +21,11 @@ Despite recent advances in Vision-Language Models (VLMs), most benchmarks evalua
 ![VLURes Task Overview](https://raw.githubusercontent.com/jatuhurrra/VLURes/main/assets/aINTRO.png)
 *Figure 1: VLURes Task Overview*  
 
-### What We Built: The VLURes Benchmark
+<!-- ++++++++++++++++ ++++++++ ++++++++  What We Built: The VLURes Benchmark  ++++++++ ++++++++ ++++++++ --> 
+
+<div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+  🌍 What We Built: The VLURes Benchmark
+</div>
 
 VLURes is more than just a dataset; it's a comprehensive testbed for the next generation of intelligent agents.
 
@@ -31,9 +33,12 @@ VLURes is more than just a dataset; it's a comprehensive testbed for the next ge
 *   **Rich, Real-World Context:** Instead of short captions, each image is paired with a full article, forcing the AI to reason about deep, contextual information.
 *   **A New Test of "Unrelatedness":** We introduce a novel task that challenges models to identify and ignore textual information that is *not* related to an image—a crucial skill for navigating noisy, real-world data.
 
----
 
-### 🧠 What Is VLURes?
+<!-- ++++++++++++++++ ++++++++ ++++++++   What Is VLURes?  ++++++++ ++++++++ ++++++++ --> 
+
+<div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+  🧠 What Is VLURes?
+</div>
 
 **VLURes** is a multilingual vision-language benchmark aimed at testing intelligent agents under realistic conditions. Each input contains an image and an article-level text (not just captions), and the benchmark tests a model’s ability to perform both **image-only** and **image+text** reasoning.
 
@@ -47,9 +52,11 @@ VLURes covers 8 tasks:
 - Visual Question Answering (VQA)
 - Unrelatedness (newly introduced)
 
----
+<!-- ++++++++++++++++ ++++++++ ++++++++  Dataset Construction  ++++++++ ++++++++ ++++++++ --> 
 
-### 🏗️ Dataset Construction
+<div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+  🏗️ Dataset Construction
+</div>
 
 We collected articles and images from multiple web sources, including Wikipedia, Wikinews, blogs, and forums. The collection covers diverse topics such as animals, locations, food, buildings, and events.
 
@@ -60,9 +67,10 @@ We collected articles and images from multiple web sources, including Wikipedia,
 
 We used **CLIP similarity scores** to align the most relevant image to each article. All data was cleaned manually, filtered for quality, and checked for NSFW or offensive content.
 
----
-
-### 🎯 New Task: The "Unrelatedness" Challenge
+<!-- ++++++++++++++++ ++++++++ ++++++++  Dataset Construction  ++++++++ ++++++++ ++++++++ --> 
+<div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+  🎯 New Task: The "Unrelatedness" Challenge
+</div>
 
 The proposed Unrelatedness task. Left: The VLM inputs consist of two modalities, a pair of images and texts. The image undergoes a series of transformations in the vision encoder and connector, generating visual tokens that are ready for alignment in a shared embedding space. Similarly, a tokenizer tokenizes text, generating textual tokens. Textual and visual tokens are aligned in a shared embedding space and fed as input to the LLM. Right. The LLM uses its multimodal understanding to decide what textual information is relevant to different parts of the image. We see that the text painted green (marked with a cross sign) is directly related to the region of the image shown inside a green square box. That is, the text matches the image part shown in green. But in this task, we are interested in text unrelated to the image. Hence, yellow text (marked with a check sign) answers our Unrelatedness task.
 
@@ -74,9 +82,10 @@ Unlike traditional matching tasks, **Unrelatedness** tests whether a model can i
 > Can the model *ignore* text that does not describe or relate to the image?  
 > This is the inverse of standard grounding tasks and pushes models to reason beyond associations.
 
----
-
-### 📊 Summary of the Benchmark Pipeline
+<!-- ++++++++++++++++ ++++++++ ++++++++   Summary of the Benchmark Pipeline  ++++++++ ++++++++ ++++++++ --> 
+<div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+  📊 Summary of the Benchmark Pipeline
+</div>
 
 1. **Task Definition**: 8 vision-language tasks
 2. **Data Collection**: From native-language web sources
@@ -84,9 +93,10 @@ Unlike traditional matching tasks, **Unrelatedness** tests whether a model can i
 4. **Evaluation**: Via human and automatic judges
 5. **Results**: Quantitative accuracy + qualitative rationale analysis
 
----
-
-### 🔬 Evaluation Protocols
+<!-- ++++++++++++++++ ++++++++ ++++++++   Evaluation Protocols  ++++++++ ++++++++ ++++++++ --> 
+<div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+  🔬 Evaluation Protocols
+</div>
 
 Models were tested under:
 - **Zero-shot and One-shot settings**
@@ -99,49 +109,50 @@ We used both:
 
 ![VLURes Task Performance](https://raw.githubusercontent.com/jatuhurrra/VLURes/main/assets/radarPlots.png)
 
----
-
-### 🧪 Experiment Results: Key Findings
+<!-- ++++++++++++++++ ++++++++ ++++++++  Experiment Results: Key Findings ++++++++ ++++++++ ++++++++ --> 
+<div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+  🧪 Experiment Results: Key Findings
+</div>
 
 - **GPT-4o** is the top performer across all settings but still trails human performance, especially for Swahili and Urdu.
 - **Rationales help**: prompting models to “show their work” consistently improved accuracy.
 - **Open-source models** like Qwen2VL and PALO significantly benefit from fine-tuning, but struggle with Swahili and Urdu input.
 - **Multilingual drop**: performance degrades in the order En → Jp → Ur → Sw, showing clear signs of language bias.
 
----
-
-### 📉 Challenges Highlighted
+<!-- ++++++++++++++++ ++++++++ ++++++++  Challenges Highlighted ++++++++ ++++++++ ++++++++ --> 
+<div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+  📉 Challenges Highlighted
+</div>
 
 - **Poor Swahili/Urdu coverage** in even the strongest open-source models
 - **Lack of robustness** in outputs when prompts and answers are in different languages
 - **Language alignment** (En input + En output) still yields the best performance
 - **Rationale prompting** significantly closes the gap between open-source and proprietary models
 
----
-
-### 🔓 Open Access
-
+<!-- ++++++++++++++++ ++++++++ ++++++++   Open Access ++++++++ ++++++++ ++++++++ --> 
+<div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+   🔓 Open Access
+</div>
 We believe in open science. All assets are publicly available:
 
 *   [**Read the Full Paper**](https://www.jmlr.org/papers/v23/21-0000.html)
 *   [**Explore the Dataset on Hugging Face**](https://huggingface.co/datasets/atamiles/VLURes)
 *   [**View the Code on GitHub**](https://github.com/jatuhurrra/VLURes/)
 
----
-
-### 🧑‍💻 Authors & Contact
+<!-- ++++++++++++++++ ++++++++ ++++++++   Authors, BibTeX, Usage and License Notices ++++++++ ++++++++ ++++++++ --> 
+<div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+   🧑‍💻 Authors, BibTeX, Usage and License Notices
+</div>
 
 For questions about this research, please contact:
 
 *   **Jesse Atuhurra** (`atuhurra.jesse.ag2@naist.ac.jp`)
 *   **Tatsuya Hiraoka** (`tatsuya.hiraoka@mbzuai.ac.ae`)
 
----
-
 ### 📚 BibTeX
 
 ```
-Now under review at Journal of Machine Learning Research
+Under review at Journal of Machine Learning Research
 ```
 
 ### Usage and License Notices
