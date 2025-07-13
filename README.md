@@ -4,6 +4,7 @@
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/atamiles/VLURes)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=github)](https://github.com/jatuhurrra/VLURes/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Website Badge](https://img.shields.io/badge/🌐_Project_Site-VLURes-0a75ad?style=for-the-badge)](https://jatuhurrra.github.io/VLURes/)
 
 > [!WARNING]
 > ## This repository is currently under development.
