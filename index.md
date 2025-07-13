@@ -21,6 +21,10 @@ Despite recent advances in Vision-Language Models (VLMs), most benchmarks evalua
 ![VLURes Task Overview](https://raw.githubusercontent.com/jatuhurrra/VLURes/main/assets/aINTRO.png)
 *Figure 1: VLURes Task Overview*  
 
+<div style="background-color:#ffe0f7; border-left: 5px solid #00cccc; padding: 1em; margin-bottom: 1em;">
+We envision generalist intelligent agents, such as robots, that accomplish several Vision-Language tasks.
+</div>
+
 <!-- ++++++++++++++++ ++++++++ ++++++++  What We Built: The VLURes Benchmark  ++++++++ ++++++++ ++++++++ --> 
 
 <div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
