@@ -2,8 +2,9 @@
 
 **A New Benchmark for Smarter, More Equitable AI**
 
-*Jesse Atuhurra, Iqra Ali, Tomoya Iwakura, Hidetaka Kamigaito, and Tatsuya Hiraoka.*  
-*NAIST, Fujitsu & MBZUAI*
+*Jesse Atuhurra<sup>1</sup>, Iqra Ali<sup>2</sup>, Tomoya Iwakura<sup>3</sup>, Hidetaka Kamigaito<sup>1</sup>, and Tatsuya Hiraoka<sup>4</sup>*  
+<sup>1</sup> NAIST <sup>2</sup> QMUL <sup>3</sup> Fujitsu Ltd <sup>4</sup> MBZUAI
+
 
 <!-- [**Paper**](https://www.jmlr.org/papers/v23/21-0000.html) -->
 [**Code**](https://github.com/jatuhurrra/VLURes/) | [**Data**](https://huggingface.co/datasets/atamiles/VLURes)
