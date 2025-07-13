@@ -14,7 +14,8 @@
   🌍 Motivation: A Multilingual, Multimodal World Needs Multilingual, Multimodal AI
 </div>
 
-Despite recent advances in Vision-Language Models (VLMs), most benchmarks evaluate models in English, with limited regard for non-English languages or rich, real-world contexts. This monolingual bias severely limits how we assess AI’s true generalization capabilities—especially for low-resource languages.
+Despite recent advances in Vision-Language Models (VLMs), most benchmarks evaluate models in English, with limited regard for non-English languages or rich, real-world contexts. 
+This monolingual bias severely limits how we assess AI’s true generalization capabilities, especially for low-resource languages.
 
 **VLURes** is designed to change that. It rigorously evaluates visual and linguistic understanding across **English, Japanese, Swahili**, and **Urdu**, using diverse tasks, rich prose, and grounded cultural contexts.
 
@@ -22,7 +23,7 @@ Despite recent advances in Vision-Language Models (VLMs), most benchmarks evalua
 *Figure 1: VLURes Task Overview*  
 
 <div style="background-color:#ffe0f7; border-left: 5px solid #00cccc; padding: 1em; margin-bottom: 1em;">
-We envision generalist intelligent agents, such as robots, that accomplish several Vision-Language tasks.
+We envision a world comprising generalist intelligent agents, such as robots, that accomplish several Vision-Language tasks.
 </div>
 
 <!-- ++++++++++++++++ ++++++++ ++++++++  What We Built: The VLURes Benchmark  ++++++++ ++++++++ ++++++++ --> 
