@@ -144,6 +144,7 @@ We believe in open science. All assets are publicly available:
    🧑‍💻 Authors, BibTeX, Usage and License Notices
 </div>
 
+### 🧑‍💻 Authors
 For questions about this research, please contact:
 
 *   **Jesse Atuhurra** (`atuhurra.jesse.ag2@naist.ac.jp`)
