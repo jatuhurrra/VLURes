@@ -140,7 +140,9 @@ We used both:
 </div>
 We believe in open science. All assets are publicly available:
 
+<!--
 *   [**Read the Full Paper**](https://www.jmlr.org/papers/v23/21-0000.html)
+-->
 *   [**Explore the Dataset on Hugging Face**](https://huggingface.co/datasets/atamiles/VLURes)
 *   [**View the Code on GitHub**](https://github.com/jatuhurrra/VLURes/)
 
