@@ -10,7 +10,11 @@
 
 ---
 
-### 🌍 Motivation: A Multilingual, Multimodal World Needs Multilingual, Multimodal AI
+<!-- ++++++++++++++++ ++++++++ ++++++++ This is the Overview section (( ORIGINAL MAGENTA HERE cc00aa ))  ++++++++ ++++++++ ++++++++ --> 
+
+<div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
+  🌍 Motivation: A Multilingual, Multimodal World Needs Multilingual, Multimodal AI
+</div>
 
 Despite recent advances in Vision-Language Models (VLMs), most benchmarks evaluate models in English, with limited regard for non-English languages or rich, real-world contexts. This monolingual bias severely limits how we assess AI’s true generalization capabilities—especially for low-resource languages.
 
