@@ -154,7 +154,7 @@ We believe in open science. All assets are publicly available:
 </div>
 
 ### 🧑‍💻 Authors
-For questions about this research, please contact:
+For questions about this research, please get in touch with the corresponding authors:
 
 *   **Jesse Atuhurra** (`atuhurra.jesse.ag2@naist.ac.jp`)
 *   **Tatsuya Hiraoka** (`tatsuya.hiraoka@mbzuai.ac.ae`)
