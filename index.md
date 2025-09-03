@@ -2,7 +2,7 @@
 
 **A New Benchmark for Smarter, More Equitable AI**
 
-*Jesse Atuhurra<sup>1</sup>, Iqra Ali<sup>2</sup>, Tomoya Iwakura<sup>3</sup>, Hidetaka Kamigaito<sup>1</sup>, and Tatsuya Hiraoka<sup>4</sup>*  
+*Jesse Atuhurra<sup>1</sup>, Iqra Ali<sup>2</sup>, Tomoya Iwakura<sup>3</sup>, Hidetaka Kamigaito<sup>1</sup>, and Tatsuya Hiraoka<sup>1,4</sup>*  
 <sup>1</sup> NAIST <sup>2</sup> QMUL <sup>3</sup> Fujitsu Ltd <sup>4</sup> MBZUAI
 
 
