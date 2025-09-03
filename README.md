@@ -8,7 +8,7 @@
 
 > [!WARNING]
 > ## This repository is currently under development.
-> The code and data are provided as-is to accompany our JMLR submission.
+> The code and data are provided as-is to accompany an ongoing submission.
 
 Official repository for the JMLR paper "VLURes: Benchmarking VLM Visual and Linguistic Understanding in Low-Resource Languages" by Jesse Atuhurra, Iqra Ali, Tomoya Iwakura, Hidetaka Kamigaito, and Tatsuya Hiraoka.
 
