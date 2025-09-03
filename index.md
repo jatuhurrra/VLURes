@@ -162,7 +162,7 @@ For questions about this research, please get in touch with the corresponding au
 ### 📚 BibTeX
 
 ```
-Under review at Journal of Machine Learning Research
+BibTex coming soon...
 ```
 
 ### Usage and License Notices
