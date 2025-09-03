@@ -146,7 +146,7 @@ The code, annotations, and other original materials in this repository are licen
 # Citation
 If you use VLURes in your research, please cite our paper.
 ```
-Under review at the Journal of Machine Learning Research
+BibTex coming soon...
 ```
 
 # Contact
