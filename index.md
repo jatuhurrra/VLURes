@@ -1,15 +1,16 @@
-# VLURes: Understanding Vision and Language Across Cultures
+# VLURes: Benchmarking Long-Text Grounding and Cross-Lingual Robustness in Vision Language Models
 
-**A New Benchmark for Smarter, More Equitable AI**
+**This project started when Jesse and Iqra were interns at the AI Lab of Fujitsu Ltd., Japan.**
+
+## <span style="color: violet;">🎉 VLURes got accepted at ACL2026 Findings. See you in San Diego, CA...🌴</span>
 
 ## <span style="color: red;">🚧 Site Now Under Development 🚧</span>
 
-*Jesse Atuhurra<sup>1</sup>, Iqra Ali<sup>2</sup>, Tomoya Iwakura<sup>3</sup>, Hidetaka Kamigaito<sup>1</sup>, and Tatsuya Hiraoka<sup>1,4</sup>*  
-<sup>1</sup> NAIST <sup>2</sup> QMUL <sup>3</sup> Fujitsu Ltd <sup>4</sup> MBZUAI
+<span style="color: black;"><strong>Jesse Atuhurra<sup>1</sup>, Iqra Ali<sup>2</sup>, Tomoya Iwakura<sup>3</sup>, Hidetaka Kamigaito<sup>1</sup>, and Tatsuya Hiraoka<sup>1,4,5</sup></strong></span>  
+<sup>1</sup> NAIST <sup>2</sup> QMUL <sup>3</sup> Meiji University <sup>4</sup> MBZUAI <sup>4</sup> RIKEN
 
 
-<!-- [**Paper**](https://www.jmlr.org/papers/v23/21-0000.html) -->
-[**Code**](https://github.com/jatuhurrra/VLURes/) | [**Data**](https://huggingface.co/datasets/atamiles/VLURes)
+[**Paper**](https://arxiv.org/pdf/2510.12845) | [**Code**](https://github.com/jatuhurrra/VLURes/) | [**Data**](https://huggingface.co/datasets/atamiles/VLURes)
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ Motivation (( ORIGINAL MAGENTA HERE cc00aa ))  ++++++++ ++++++++ ++++++++ --> 
 
@@ -164,7 +165,15 @@ For questions about this research, please get in touch with the corresponding au
 ### 📚 BibTeX
 
 ```
-BibTex coming soon...
+@misc{atuhurra2025vluresbenchmarkingvlmvisual,
+      title={VLURes: Benchmarking VLM Visual and Linguistic Understanding in Low-Resource Languages}, 
+      author={Jesse Atuhurra and Iqra Ali and Tomoya Iwakura and Hidetaka Kamigaito and Tatsuya Hiraoka},
+      year={2025},
+      eprint={2510.12845},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.12845}, 
+}
 ```
 
 ### Usage and License Notices
