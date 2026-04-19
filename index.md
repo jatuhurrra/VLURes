@@ -2,7 +2,7 @@
 
 **This project started when Jesse and Iqra were interns at the AI Lab of Fujitsu Ltd., Japan.**
 
-## <span style="color: violet;">🎉 VLURes got accepted at ACL2026 Findings. See you in San Diego, CA...🌴</span>
+## <span style="color: maroon;">🎉 VLURes got accepted at ACL2026 Findings. See u in San Diego, CA.🌴</span>
 
 ## <span style="color: red;">🚧 Site Now Under Development 🚧</span>
 
