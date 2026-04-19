@@ -1,13 +1,13 @@
 # VLURes: Benchmarking Long-Text Grounding and Cross-Lingual Robustness in Vision Language Models
 
-**This project started when Jesse and Iqra were interns at the AI Lab of Fujitsu Ltd., Japan.**
-
 ## <span style="color: maroon;">🎉 Accepted to ACL2026 Findings. See you in San Diego, CA🌴</span>
 
-<!-- ## <span style="color: red;">🚧 Site is Now Under Development 🚧</span>   --> 
+## <span style="color: red;">🚧 Site is Now Under Development 🚧</span> 
 
 <span style="color: black;"><strong>Jesse Atuhurra<sup>1</sup>, Iqra Ali<sup>2</sup>, Tomoya Iwakura<sup>3</sup>, Hidetaka Kamigaito<sup>1</sup>, and Tatsuya Hiraoka<sup>1,4,5</sup></strong></span>  
 <sup>1</sup> NAIST <sup>2</sup> QMUL <sup>3</sup> Meiji University <sup>4</sup> MBZUAI <sup>5</sup> RIKEN
+
+**This project started when Jesse and Iqra were interns at the AI Lab of Fujitsu Ltd., Japan.**
 
 
 [**Paper**](https://arxiv.org/pdf/2510.12845) | [**Code**](https://github.com/jatuhurrra/VLURes/) | [**Data on Hugging Face**](https://huggingface.co/datasets/atamiles/VLURes)
