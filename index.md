@@ -2,7 +2,7 @@
 
 **This project started when Jesse and Iqra were interns at the AI Lab of Fujitsu Ltd., Japan.**
 
-## <span style="color: maroon;">🎉 Accepted to ACL2026 Findings. See you in San Diego, CA.🌴</span>
+## <span style="color: maroon;">🎉 Accepted to ACL2026 Findings. See you in San Diego, CA🌴</span>
 
 <!-- ## <span style="color: red;">🚧 Site is Now Under Development 🚧</span>   --> 
 
