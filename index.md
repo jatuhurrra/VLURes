@@ -2,9 +2,9 @@
 
 **This project started when Jesse and Iqra were interns at the AI Lab of Fujitsu Ltd., Japan.**
 
-## <span style="color: maroon;">🎉 VLURes got accepted at ACL2026 Findings. See u in San Diego, CA.🌴</span>
+## <span style="color: maroon;">🎉 Accepted to ACL2026 Findings. See u in San Diego, CA.🌴</span>
 
-## <span style="color: red;">🚧 Site Now Under Development 🚧</span>
+## <span style="color: red;">🚧 Site is Now Under Development 🚧</span>
 
 <span style="color: black;"><strong>Jesse Atuhurra<sup>1</sup>, Iqra Ali<sup>2</sup>, Tomoya Iwakura<sup>3</sup>, Hidetaka Kamigaito<sup>1</sup>, and Tatsuya Hiraoka<sup>1,4,5</sup></strong></span>  
 <sup>1</sup> NAIST <sup>2</sup> QMUL <sup>3</sup> Meiji University <sup>4</sup> MBZUAI <sup>5</sup> RIKEN
