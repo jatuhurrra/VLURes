@@ -10,7 +10,7 @@
 *This project started when Jesse Atuhurra and Iqra Ali were interns at the AI Lab of Fujitsu Ltd., Japan, supervised by Tomoya Iwakura and Tatsuya Hiraoka.*
 
 
-[**Paper**](https://arxiv.org/pdf/2510.12845) | [**Code**](https://github.com/jatuhurrra/VLURes/) | [**Data on Hugging Face**](https://huggingface.co/datasets/atamiles/VLURes)
+[**Code**](https://github.com/jatuhurrra/VLURes/) | [**Data on Hugging Face**](https://huggingface.co/datasets/atamiles/VLURes/) | [**Paper**](https://arxiv.org/pdf/2510.12845) 
 
 <!-- ++++++++++++++++ ++++++++ ++++++++ Motivation (( ORIGINAL MAGENTA HERE cc00aa ))  ++++++++ ++++++++ ++++++++ --> 
 
