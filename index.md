@@ -142,14 +142,9 @@ We used both:
 <div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
    🔓 Open Access
 </div>
-We believe in open science. All assets are publicly available:
-
-<!--
-*   [**Read the Full Paper**](https://www.jmlr.org/papers/v23/21-0000.html)
--->
+We believe in open science. The dataset is publicly available:
 
 *   [**Explore the Dataset on Hugging Face**](https://huggingface.co/datasets/atamiles/VLURes)
-*   [**View the Code on GitHub**](https://github.com/jatuhurrra/VLURes/)
 
 <!-- ++++++++++++++++ ++++++++ ++++++++   Authors, BibTeX, Usage and License Notices ++++++++ ++++++++ ++++++++ --> 
 <div style="width: 100%; background-color: #b2d8d8; color: #800080; text-align: center; padding: 0.75em 0; font-size: 1.5em; font-weight: bold; margin: 2em 0;">
