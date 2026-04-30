@@ -1,16 +1,16 @@
-# VLURes: Benchmarking VLM Visual and Linguistic Understanding in Low-Resource Languages
+# VLURes: Benchmarking Long-Text Grounding and Cross-Lingual Robustness in Vision Language Models
 
-[![Paper](https://img.shields.io/badge/paper-arXiv:24XX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/24XX.XXXXX)
+[![Paper](https://img.shields.io/badge/paper-arXiv:2510.12845-b31b1b.svg)](https://arxiv.org/abs/2510.12845)
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/atamiles/VLURes)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717.svg?logo=github)](https://github.com/jatuhurrra/VLURes/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Website Badge](https://img.shields.io/badge/🌐_Project_Site-VLURes-0a75ad?style=for-the-badge)](https://jatuhurrra.github.io/VLURes/)
 
 > [!WARNING]
-> ## This repository is currently under development.
+> # This repository is currently under development.
 > The code and data are provided as-is to accompany an ongoing submission.
 
-Official repository for the ACL2026 Findings paper "VLURes: Benchmarking Long-Text Grounding and Cross-Lingual Robustness in Vision Language Models" by Jesse Atuhurra, Iqra Ali, Tomoya Iwakura, Hidetaka Kamigaito, and Tatsuya Hiraoka.
+Official repository for the **ACL2026 Findings paper "VLURes: Benchmarking Long-Text Grounding and Cross-Lingual Robustness in Vision Language Models"** by Jesse Atuhurra, Iqra Ali, Tomoya Iwakura, Hidetaka Kamigaito, and Tatsuya Hiraoka.
 
 ---
 
@@ -146,8 +146,18 @@ The code, annotations, and other original materials in this repository are licen
 # Citation
 If you use VLURes in your research, please cite our paper.
 ```
-BibTex coming soon...
+@misc{atuhurra2025vluresbenchmarkingvlmvisual,
+      title={VLURes: Benchmarking VLM Visual and Linguistic Understanding in Low-Resource Languages}, 
+      author={Jesse Atuhurra and Iqra Ali and Tomoya Iwakura and Hidetaka Kamigaito and Tatsuya Hiraoka},
+      year={2025},
+      eprint={2510.12845},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.12845}, 
+}
 ```
+
+Conference proceedings BibTex coming soon...
 
 # Contact
 For questions about the paper or repository, please contact the corresponding authors:
