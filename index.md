@@ -158,6 +158,30 @@ For questions about this research, please get in touch with the corresponding au
 *   **Tatsuya Hiraoka** (`tatsuya.hiraoka@mbzuai.ac.ae`)
 
 ### 📚 BibTeX
+```
+@inproceedings{atuhurra-etal-2026-vlures,
+    title = "{VLUR}es: Benchmarking Long-Text Grounding and Cross-Lingual Robustness in Vision Language Models",
+    author = "Atuhurra, Jesse  and
+      Ali, Iqra  and
+      Iwakura, Tomoya  and
+      Kamigaito, Hidetaka  and
+      Hiraoka, Tatsuya",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.1367/",
+    pages = "27426--27481",
+    ISBN = "979-8-89176-395-1",
+    abstract = "We introduce ***VLURes***, a multilingual benchmark for evaluating Vision-Language Models (VLMs) under *long-text grounding*: selecting and reasoning over the image-relevant subset of article-length text that contains distractors and ungrounded claims. *VLURes* contains **4,000** web-curated *image + long-text* pairs across **English (En), Japanese (Ja), Swahili (Sw), and Urdu (Ur)** and **10** topical categories, and defines **eight** tasks spanning image-only perception (OR, SU, RU, SS, IC) and image+text grounding (ITM, *Unrelatedness*, VQA). To construct web-realistic pairs, we apply language-adapted CLIP alignment to select representative images and filter weakly grounded pages. Across **10** proprietary and open VLMs evaluated under zero-shot and one-shot prompting, with and without rationales, the best model (GPT-4o) reaches **90.8{\%}** overall accuracy but remains **6.7** points below human performance (**97.5{\%}**) on Object Recognition, and cross-lingual sensitivity persists, while open models are substantially weaker and often lack reliable multilingual VL support. *VLURes* provides a practical testbed for long-text grounding and multilingual robustness in web-realistic agent settings."
+}
+```
+and
 
 ```
 @misc{atuhurra2025vluresbenchmarkingvlmvisual,
